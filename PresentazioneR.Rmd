@@ -3,8 +3,9 @@ title: "Analisi del campionato di basket NCAA (1985-2020)"
 author: "Gabriele Dominici"
 output: 
   html_document
-runtime:
-  shiny
+#per avere la shiny app creata dinamicamente sulla pacina HTML
+  #runtime:
+  #shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -185,7 +186,7 @@ head(Last10 %>%
   arrange(-Change), 10)
 ```
 
-Qui troviamo le migliori dieci squadre che hanno performato meglio negli ultimi 10 anni rispetto a prima. Alcune squadre nella precedente tabella erano posizionate molto in basso e, grazie a delle ottime ultime stagion, sono riuscite a risalire il ranking. Menzione speciale la meritano Harvard, Buffalo e San Diego St.
+Qui troviamo le migliori dieci squadre che hanno performato meglio negli ultimi 10 anni rispetto a prima. Alcune squadre nella precedente tabella erano posizionate molto in basso e, grazie a delle ottime ultime stagioni, sono riuscite a risalire il ranking. Menzione speciale la meritano Harvard, Buffalo e San Diego St.
 
 #### Confronto con le posizioni delle top 10 squadre negli ultimi 10 anni rispetto a prima
 
@@ -195,7 +196,7 @@ head(Last10 %>%
   arrange(-Change), 10)
 ```
 
-Questa volta vediamo come erano posizionate nella classifica dal 1985 ad oggi le squadre nella top 10 degli ultimi 10 anni. 
+In questa tabella vediamo come erano posizionate nella classifica dal 1985 ad oggi le squadre nella top 10 degli ultimi 10 anni. 
 
 #### Confronto con le posizioni negli ultimi 10 anni delle top 10 squadre dal 1985 ad oggi
 
@@ -205,7 +206,7 @@ head(Last10 %>%
   arrange(-Change), 10)
 ```
 
-Mentre ora, vediamo l'esatto opposto, notando la scalata di Gonzaga che si attesta in prima posizione negli ultimi 10 anni, in cui è stata per la maggior parte delle volte una contender, senza mai, però, vincere un titolo. 
+Mentre ora, vediamo l'esatto opposto; notiamo, inoltre, la scalata di Gonzaga che si attesta in prima posizione negli ultimi 10 anni, in cui è stata per la maggior parte delle volte una contender, senza mai, però, vincere un titolo. 
 
 ## Cambiamento del gioco negli anni - Tipi di tiri effettuati
 
@@ -273,7 +274,7 @@ Year_Points %>%
   theme(legend.title = element_blank())  
 ```
 
-I punteggi nel corso degli anni sono altalenanti, ma tutti i tipi di punteggi (Media punti segnati, Media punti segnati dalla squadra vincitrice e Media punti segnati dalla squadra perdente) non subiscono nè trend rialzisti, nè ribassisiti, questo ci fa presupporre che lo scarto medio delle partite negli anni è rimasto pressochè invariato (MPW - MPL).
+I punteggi nel corso degli anni sono altalenanti, ma tutti i tipi di punteggi (Media punti segnati, Media punti segnati dalla squadra vincitrice e Media punti segnati dalla squadra perdente) non subiscono nè trend rialzisti, nè ribassisiti, questo ci mostra che lo scarto medio delle partite negli anni è rimasto pressochè invariato (MPW - MPL).
 
 ```{r, echo = FALSE, fig.align = "center"}
 #PLOT CON LO SCARTO MEDIO TRA VINCENTE E PERDERNTE NEL CORSO DEGLI ANNI
