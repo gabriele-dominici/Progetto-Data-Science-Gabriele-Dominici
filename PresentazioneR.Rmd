@@ -60,7 +60,7 @@ Il campionato di basket dell'NCAA (National Collegiate Athletic Association) è 
 
 La principale, la Division I, raggruppa circa 350 tra le migliori squadre di college degli Stati Uniti, divise in 32 Conference (8 o 16 squadre).
 
-Tra i giocatori di queste squadre troviamo i futuri professionisti del campionato di basket più famoso al mondo, l'NBA
+Tra i giocatori di queste squadre troviamo i futuri professionisti del campionato di basket più famoso al mondo, l'NBA.
 
 ## Regular Season
 Il campionato NCAA comincia i primi di novembre e si conclude al termine di marzo.
@@ -70,7 +70,7 @@ Nella prima parte di stagione, chaiamata Regular Season, si distinguono due peri
 
 * conference schedule: in cui ogni college gioca almeno una partita contro ogni altra squadra appartenente alla sua Conference
 
-Questo periodo è fondamentale per poter giocare la seconda parte di stagione
+Questo periodo è fondamentale per poter giocare la seconda parte di stagione.
 
 ## March Madness
 La seconda parte di stagione è quella più importante ed è divisa anch'essa in due parti:
@@ -79,7 +79,7 @@ La seconda parte di stagione è quella più importante ed è divisa anch'essa in
 
 * March Madness: in cui le migliori 64 squadre di college si sfidano per ottenere l'ambito premio
 
-Quest'ultima si svolge tra marzo e l'inizio di aprile ed è uno degli eventi più seguiti dell'anno negli Stati Uniti
+Quest'ultima si svolge tra marzo e l'inizio di aprile ed è uno degli eventi più seguiti dell'anno negli Stati Uniti.
 
 # Analisi del campionato tra il 1985 ed oggi
 
@@ -177,7 +177,7 @@ head(Rank_Over_All %>%
          select(-TeamID), 10)
 ```
 
-Nella tabella vediamo le squadre che dal 1985 ad oggi hanno performato meglio. Nelle prime posizioni sono presenti atenei di grandissima fama come Kansas (dove hanno giocato Paul Pierce, Joel Embiid, Wilt Chamberlain ...), Duke (Zion Williamson, Kyrie Irving, Jayson Tatum ...) oppure Kentucky (Anthony Davis, John Wall, DeMarcus Cousins) che negli anni hanno sfornato moltissimi talenti
+Nella tabella vediamo le squadre che dal 1985 ad oggi hanno performato meglio. Nelle prime posizioni sono presenti atenei di grandissima fama come Kansas (dove hanno giocato Paul Pierce, Joel Embiid, Wilt Chamberlain ...), Duke (Zion Williamson, Kyrie Irving, Jayson Tatum ...) oppure Kentucky (Anthony Davis, John Wall, DeMarcus Cousins) che negli anni hanno sfornato moltissimi talenti.
 
 #### Squadre che hanno performato meglio negli ultimi 10 anni rispetto a prima
 
@@ -395,7 +395,7 @@ Durante la March Madness si svolgono diversi round:
 
 </br>
 </br>
-Se tra RR e MM notavamo delle piccole differenze in termini di punteggio, a maggior ragione ce le aspettiamo tra i differenti Round
+Se tra RR e MM notavamo delle piccole differenze in termini di punteggio, a maggior ragione ce le aspettiamo tra i differenti Round.
 
 ```{r, include = FALSE}
 #VETTORE CHE DEFINISCE I TIPI DI ROUND
@@ -462,7 +462,7 @@ Un ateneo può partecipare alla March Madness in due modi:
 
 * venire scelti dai Commissioner (esperti di basket scelti ogni 5 anni) la domenica precedente alla MM
 
-In questo modo vengono scelte le 64/68 squadre che parteciperanno al torneo conclusivo della manifestazione e, per ogni Regione, viene stilata una classifica dai Commissioner che indica l'assegnazione della seed (il posto all'interno del bracket)
+In questo modo vengono scelte le 64/68 squadre che parteciperanno al torneo conclusivo della manifestazione e, per ogni Regione, viene stilata una classifica dai Commissioner che indica l'assegnazione della seed (il posto all'interno del bracket).
 
 ```{r, include = FALSE}
 Seed_All = Seed %>%
@@ -486,7 +486,7 @@ head(Seed_All, 10)
 ```
 
 Le sopracitate Duke e Kansas negli ultimi 35 anni hanno perso solamente una convocazione alla MM.
-A seguire, comunque, troviamo atenei con un win rate molto alto, infatti 7 su 10 sono presenti nella top 10 del ranking dal 1985 ad oggi
+A seguire, comunque, troviamo atenei con un win rate molto alto, infatti 7 su 10 sono presenti nella top 10 del ranking dal 1985 ad oggi.
 
 #### Squadre con il maggior numero di partecipazioni alla MM negli ultimi 10 anni
 
@@ -521,9 +521,9 @@ Ai primi due posti troviamo due dei college che hanno partecipato a più MM, son
 Nonostante questo, non sono le due squadre più vincenti dell'NCAA, in quanto UCLA ha vinto ben 7 titoli, ma tutti prima del 1985.
 Tra le 10 posizioni ce ne sono due particolarmente interessanti: 
 
-* alla posizione numero 3 troviamo l'Università del Connecticut con ben 4 titoli; negli anni ha partecipato a diversi tornei di fine stagione, ma negli ultimi 10 solamente a 4 concretizzandone 2 di essi
+* alla posizione numero 3 troviamo l'Università del Connecticut con ben 4 titoli; negli anni ha partecipato a diversi tornei di fine stagione, ma negli ultimi 10 solamente a 4 concretizzandone 2
 
-* alla posizione numero 5 c'è Villanova, un college che si è messo in mostra negli ultimi 10 anni, partecipando a 9 MM e vincendone 2 di esse.
+* alla posizione numero 5 c'è Villanova, un college che si è messo in mostra negli ultimi 10 anni, partecipando a 9 MM e vincendone 2
 
 # Analisi 2018-19
 
@@ -802,13 +802,13 @@ ja_morant %>%
   ggtitle("Tipi di azioni effettuate da Ja Morant")
 ```
 
-Da questo grafico possiamo notare diverse cose: 
+Da questo grafico possiamo notare diversi aspetti: 
 
 * l'estrema capacità di giocare per i compagni, effettuando numerosi assist (voce con più occorrenze). Infatti proprio per questo motivo si classifica alla sesta posizione di tutti i tempi, dell'NCAA, per numero totale di assist in una  stagione e per assist medi a partita.
 
 * una altissima percentuale di tiri liberi (made1 /(made1 + miss1)), che lo fa entrare al terzo posto nella classfica dei giocatori che hanno segnato più tiri liberi in una partita, in NCAA (21 su 21)
 
-* che la percentuale di tiri da 2 è positiva, ha segnato numerose triple, che mostrano, però, che non è una delle sue caratteristiche principali, data la non altissima percentuale realizzativa
+* la non eccellente percentuale realizzativa da 3 punti, la quale mostra un possibile frangente su cui allenarsi, a differenza delle ottime percentuali del tiro da 2 punti
 
 * il numero importante di rimbalzi presi, nell'arco della stagione, dimostrando la sua competenza in diversi ambiti. Non a caso, con 3 *triple-doppie* realizzate (andare in doppia cifra in tre statistiche differenti in una partita), è nella top 10 dei giocatori che ne hanno realizzate di più
 
@@ -887,7 +887,7 @@ ggarrange(P13, P14, P15, P16)
 
 ```
 
-IL primo grafico ci dà poche informazioni sulle aree da cui i giocatori tirano maggiormente, sembrano distribuiti molto equamente aulla superficie del campo. Negli altri tre grafici, invece, utilizzando una *heatmap*, riusciamo a estrapolare meggiori informazioni notando che:
+IL primo grafico ci dà poche informazioni sulle aree da cui i giocatori tirano maggiormente, sembrano distribuiti molto equamente sulla superficie del campo. Negli altri tre grafici, invece, utilizzando una *heatmap*, riusciamo a estrapolare meggiori informazioni notando che:
 
 * i tiri dalla media sono quelli che vengono meno utilizzati, di conseguenza le aree più sfruttate sono quelle sotto canestro, con i tiri ad alta percentuale, e quelle dietro l'arco da 3 punti, confermando l'ipotesi fatta in precedenza, sul cambio di tipologia di gioco
 
@@ -897,7 +897,7 @@ IL primo grafico ci dà poche informazioni sulle aree da cui i giocatori tirano 
 
 # STATISTICHE GIOCATORI 2018-19
 
-Infine ho realizzato una Shiny App in cui è possibile visionare le statistiche dei vari giocatori, della stagione 2018-19, avendo anche la possibilità di vedere la distribuzione dei tiri realizzati da essi durante la stagione
+Infine ho realizzato una Shiny App in cui è possibile visionare le statistiche dei vari giocatori, della stagione 2018-19, avendo anche la possibilità di vedere la distribuzione dei tiri realizzati da essi durante la stagione.
 
 ```{r, cache = FALSE, echo = FALSE}
 shinyAppFile("ncaa/app.R")
