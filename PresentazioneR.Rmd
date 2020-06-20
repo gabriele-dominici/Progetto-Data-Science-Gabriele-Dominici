@@ -900,6 +900,6 @@ IL primo grafico ci dà poche informazioni sulle aree da cui i giocatori tirano 
 Infine ho realizzato una Shiny App in cui è possibile visionare le statistiche dei vari giocatori, della stagione 2018-19, avendo anche la possibilità di vedere la distribuzione dei tiri realizzati da essi durante la stagione.
 
 ```{r, cache = FALSE, echo = FALSE}
-shinyAppFile("ncaa/app.R")
+shinyAppFile("app.R")
 ```
 
